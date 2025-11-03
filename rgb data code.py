@@ -141,7 +141,7 @@ img_glpf_b, fshift_b_glpf = fft_filter_image(input_for_fft_b, gaussian_mask)
 
 print("Filtering complete.")
 
-# Phase 3:Visualization 
+# Phase 3:Visualization of resulted data
 plt.figure(figsize=(15, 16))
 
 rgb_ilpf = np.stack([img_ilpf_r, img_ilpf_g, img_ilpf_b], axis=-1)
